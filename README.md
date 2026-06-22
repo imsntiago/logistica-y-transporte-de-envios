@@ -67,6 +67,18 @@ El modelo permite analizar:
 • Modelo relacional
 !['Modelo Relacional'](assets/MR.jpeg)
 
+# Implementación de la Base de Datos
+
+## Incluye:
+
+• Script de creación de tablas (DDL)
+
+• Script de inserción de datos (DML o Python)
+
+faker_script_bd.py
+
+proyecto_logistica_final.sql
+
 
 
 
