@@ -75,9 +75,9 @@ El modelo permite analizar:
 
 • Script de inserción de datos (DML o Python)
 
-faker_script_bd.py
+!['Python Script'](faker_script_bd.py)
 
-proyecto_logistica_final.sql
+!['SQL Script'](proyecto_logistica_final.sql)
 
 
 
