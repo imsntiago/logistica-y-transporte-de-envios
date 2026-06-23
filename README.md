@@ -191,33 +191,33 @@ Se generarón eventos de seguimiento para cada envío al igual que incidencias
 
 - Eventos de seguimiento dentro del ciclo de vida del envío:
 
-  -Admisión del paquete
+  • Admisión del paquete
 
-  -Procesamiento logístico
+  • Procesamiento logístico
   
-  -Transporte
+  • Transporte
   
-  -Entrega final
+  • Entrega final
 
 - Incidencias dentro del ciclo de vida del envío:
 
-  - Cliente no encontrado
+  • Cliente no encontrado
   
-  - Dirección incorrecta
+  • Dirección incorrecta
   
-  - Problemas en la vía
+  • Problemas en la vía
   
-  -Alta demanda operativa
+  • Alta demanda operativa
   
-  -Retraso por clima
+  • Retraso por clima
   
-  -Paquete dañado
+  • Paquete dañado
   
-  -Intento de entrega fallido
+  • Intento de entrega fallido
   
-  -Demora logística
+  • Demora logística
   
-  -Reprogramación de entrega
+  • Reprogramación de entrega
 
 
 📈 Estacionalidad Implementada
@@ -226,13 +226,13 @@ También se incorporó estacionalidad en la generación de los envíos para repr
 
 Los períodos con mayor demanda fueron:
 
--Noviembre (Black friday)
+• Noviembre (Black friday)
 
--Diciembre (Temporada navideña)
+• Diciembre (Temporada navideña)
 
--Semana santa
+• Semana santa
 
--Temporadas de vacaciones
+• Temporadas de vacaciones
  
 ---------
 
@@ -240,13 +240,13 @@ Los períodos con mayor demanda fueron:
 
 Se verificó:
 
-- Integridad referencial (FK)
+• Integridad referencial (FK)
 
-- Consistencia de datos
+• Consistencia de datos
 
-- Distribución de valores (consultas SQL)
+• Distribución de valores (consultas SQL)
 
-- Coherencia entre las tablas
+• Coherencia entre las tablas
 
 ---
 
@@ -256,27 +256,27 @@ Durante el desarrollo de esta segunda entrega se presentaron desafíos como:
 
 1. Configuración de la conexión entre Python y MySQL
 
-- Desafío: Establecer correctamente la conexión entre Python y la base de datos en MySQL
+• Desafío: Establecer correctamente la conexión entre Python y la base de datos en MySQL
 
-- Solución: Configurar adecuadamente mysql-connector-python y validar la conexión antes de realizar las inserciones.
+• Solución: Configurar adecuadamente mysql-connector-python y validar la conexión antes de realizar las inserciones.
 
 2. Gestión de claves primarias y foráneas 
 
-- Desafío: Se presentaron errores relacionados con columnas que no tenían AUTO_INCREMENT y restricciones de claves foráneas
+• Desafío: Se presentaron errores relacionados con columnas que no tenían AUTO_INCREMENT y restricciones de claves foráneas
 
-- Solución: Ajustar la estructura de las tablas y definir correctamente las relaciones entre entidades.
+• Solución: Ajustar la estructura de las tablas y definir correctamente las relaciones entre entidades.
 
 3. Orden correcto para cargar los datos
 
-- Desafío:Algunas tablas dependían de información existente en otras tablas, generando errores al insertar.
+• Desafío:Algunas tablas dependían de información existente en otras tablas, generando errores al insertar.
 
-- Solución: Definir el orden de inserción respetando la integridad referencial: clientes, rutas, envíos y seguimiento.
+• Solución: Definir el orden de inserción respetando la integridad referencial: clientes, rutas, envíos y seguimiento.
 
 4. Generación de datos coherentes
 
-- Desafío: Generar información ficticia que representara una operación logística real y mantuviera consistencia entre las tablas
+• Desafío: Generar información ficticia que representara una operación logística real y mantuviera consistencia entre las tablas
 
-- Solución: Utilizar Faker junto con reglas de negocio para relacionar clientes, rutas y envíos de manera lógica.
+• Solución: Utilizar Faker junto con reglas de negocio para relacionar clientes, rutas y envíos de manera lógica.
 
 ---------
 
@@ -285,22 +285,22 @@ Durante el desarrollo de esta segunda entrega se presentaron desafíos como:
 
 Se logró:
 
-- Base de datos funcional (Creación tablas DDL e inserción DML en Python)
+• Base de datos funcional (Creación tablas DDL e inserción DML en Python)
 
-- Generación de datos realistas y coherentes con la librería Faker
+• Generación de datos realistas y coherentes con la librería Faker
 
 -----------
 
 
 ## 👨‍💻 Autores equipo 7
 
-- Lina Camila Arrieta Ceballos
+• Lina Camila Arrieta Ceballos
 
-- Narling Ximena Camargo Gomez
+• Narling Ximena Camargo Gomez
 
-- Santiago Jaramillo Graciano
+• Santiago Jaramillo Graciano
 
-- Eduar Santiago García Serrano
+• Eduar Santiago García Serrano
 
 ## Incluye:
 
