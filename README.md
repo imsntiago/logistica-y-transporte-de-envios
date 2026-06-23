@@ -79,14 +79,4 @@ El modelo permite analizar:
 
 !['SQL Script'](proyecto_logistica_final.sql)
 
-
-
-
-
-
-
-
-
-
-
-
+# Continuará...
